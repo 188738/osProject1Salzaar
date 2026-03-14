@@ -142,7 +142,6 @@ public class Driver {
         log("HISTORY", "History displayed");
     }
 
-    // Returns a string either from history or new input
     private static String getStringFromUserOrHistory(String context) {
         if (!history.isEmpty()) {
             System.out.println("1. Enter new string");
